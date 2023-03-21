@@ -1,9 +1,16 @@
 {
     "name": "GitLab CLI",
     "id": "glab",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "GitLab CLI feature",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
-    ]
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "gitlab.gitlab-workflow"
+            ]
+        }
+    }
 }
