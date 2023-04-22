@@ -1,7 +1,9 @@
 #!/bin/sh
 set -e
 
-cp update-glab-credentials /usr/local/bin
+echo "New Feature"
+
+# cp update-glab-credentials /usr/local/bin
 
 # Installs dependencies
 pwd
