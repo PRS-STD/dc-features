@@ -1,16 +1,14 @@
 {
-    "name": "GitLab CLI",
+    "name": "GitLab scripts",
     "id": "glab",
-    "version": "1.0.3",
-    "description": "GitLab CLI feature",
+    "version": "0.0.1",
+    "description": "Feature with gitLab scripts to be used in devcontainers",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ],
     "customizations": {
         "vscode": {
-            "extensions": [
-                "gitlab.gitlab-workflow"
-            ]
+            "extensions": []
         }
     }
 }
