@@ -5,5 +5,5 @@ set -e
 cp update-glab-credentials /usr/local/bin
 
 # Adds necessary call for interactive scripts
-cat rc-ext.sh >> $HOME/.bashrc
-cat rc-ext.sh >> $HOME/.zshrc
+cat rc-ext.sh >> /etc/bash.bashrc
+cat rc-ext.sh >> /etc/zshrc

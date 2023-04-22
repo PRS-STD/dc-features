@@ -1,7 +1,7 @@
 {
     "name": "GitLab scripts",
     "id": "glab",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Feature with gitLab scripts to be used in devcontainers",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
