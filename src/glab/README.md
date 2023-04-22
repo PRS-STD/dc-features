@@ -1,13 +1,13 @@
 
-# GitLab CLI (glab)
+# GitLab scripts (glab)
 
-GitLab CLI feature
+Feature with gitLab scripts to be used in devcontainers
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/vmorilla/features/glab:1": {}
+    "ghcr.io/PRS-STD/dc-features/glab:0": {}
 }
 ```
 
@@ -17,4 +17,4 @@ GitLab CLI feature
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/vmorilla/features/blob/main/src/glab/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/PRS-STD/dc-features/blob/main/src/glab/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
