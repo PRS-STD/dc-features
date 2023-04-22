@@ -1,10 +1,9 @@
 #!/bin/sh
 set -e
 
-echo "New Feature"
+# Adds script to bin folder
+cp update-glab-credentials /usr/local/bin
 
-# cp update-glab-credentials /usr/local/bin
-
-# Installs dependencies
-pwd
-ls
+# Adds necessary call for interactive scripts
+cat rc-ext.sh >> $HOME/.bashrc
+cat rc-ext.sh >> $HOME/.zshrc
